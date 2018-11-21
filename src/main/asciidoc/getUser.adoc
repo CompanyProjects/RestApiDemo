@@ -1,0 +1,20 @@
+
+= 用 Spring REST Docs 构建文档
+
+This is an example output for a service running at http://localhost:8482:
+
+
+[[example_curl_request]]
+== Curl request
+
+include::{snippets}/index/curl-request.adoc[]
+
+[[example_http_request]]
+== HTTP request
+
+include::{snippets}/index/http-request.adoc[]
+
+[[example_http_response]]
+== HTTP response
+
+include::{snippets}/index/http-response.adoc[]

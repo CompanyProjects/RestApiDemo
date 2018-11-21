@@ -53,4 +53,10 @@ public class UserController {
         }
         return result;
     }
+
+    @ApiOperation("获取所有用户")
+    @GetMapping("getAllUser")
+    public Result<Set<User>> getAllUser(){
+        return new Result<>(ResultCode.C200.getCode(),users);
+    }
 }
